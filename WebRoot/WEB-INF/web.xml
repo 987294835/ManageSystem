@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ListServlet</servlet-name>
+    <servlet-class>com.order.servlet.FoodtypeListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>foodTypePageServlet</servlet-name>
+    <servlet-class>com.order.servlet.foodTypePageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addFoodTypeServlet</servlet-name>
+    <servlet-class>com.order.servlet.addFoodTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateFoodTypeServlet</servlet-name>
+    <servlet-class>com.order.servlet.updateFoodTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteFoodTypeServlet</servlet-name>
+    <servlet-class>com.order.servlet.deleteFoodTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MFoodListServlet</servlet-name>
+    <servlet-class>com.order.servlet.MFoodListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MFoodPageServlet</servlet-name>
+    <servlet-class>com.order.servlet.MFoodPageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteFoodServlet</servlet-name>
+    <servlet-class>com.order.servlet.deleteFoodServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addDishServlet</servlet-name>
+    <servlet-class>com.order.servlet.addDishServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MFoodSaveServlet</servlet-name>
+    <servlet-class>com.order.servlet.MFoodSaveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateFoodServlet</servlet-name>
+    <servlet-class>com.order.servlet.updateFoodServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MFoodUpdateServlet</servlet-name>
+    <servlet-class>com.order.servlet.MFoodUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BoradListServlet</servlet-name>
+    <servlet-class>com.order.servlet.BoradListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MBoardPageServlet</servlet-name>
+    <servlet-class>com.order.servlet.MBoardPageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MBoardDeleteServlet</servlet-name>
+    <servlet-class>com.order.servlet.MBoardDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MBoardAddServlet</servlet-name>
+    <servlet-class>com.order.servlet.MBoardAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MBoardUpdateServlet</servlet-name>
+    <servlet-class>com.order.servlet.MBoardUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>foodTypeChangeServlet</servlet-name>
+    <servlet-class>com.order.servlet.foodTypeChangeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MFoodChangeServlet</servlet-name>
+    <servlet-class>com.order.servlet.MFoodChangeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MBoardChangeServlet</servlet-name>
+    <servlet-class>com.order.servlet.MBoardChangeServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  <servlet-mapping>
+    <servlet-name>ListServlet</servlet-name>
+    <url-pattern>/foodType/ListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>foodTypePageServlet</servlet-name>
+    <url-pattern>/foodType/foodTypePageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addFoodTypeServlet</servlet-name>
+    <url-pattern>/foodType/addFoodTypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateFoodTypeServlet</servlet-name>
+    <url-pattern>/foodType/updateFoodTypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteFoodTypeServlet</servlet-name>
+    <url-pattern>/foodType/deleteFoodTypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MFoodListServlet</servlet-name>
+    <url-pattern>/food/MFoodListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MFoodPageServlet</servlet-name>
+    <url-pattern>/food/MFoodPageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteFoodServlet</servlet-name>
+    <url-pattern>/food/deleteFoodServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addDishServlet</servlet-name>
+    <url-pattern>/food/addDishServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MFoodSaveServlet</servlet-name>
+    <url-pattern>/food/MFoodSaveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateFoodServlet</servlet-name>
+    <url-pattern>/food/updateFoodServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MFoodUpdateServlet</servlet-name>
+    <url-pattern>/food/MFoodUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BoradListServlet</servlet-name>
+    <url-pattern>/board/BoradListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MBoardPageServlet</servlet-name>
+    <url-pattern>/board/MBoardPageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MBoardDeleteServlet</servlet-name>
+    <url-pattern>/board/MBoardDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MBoardAddServlet</servlet-name>
+    <url-pattern>/board/MBoardAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MBoardUpdateServlet</servlet-name>
+    <url-pattern>/board/MBoardUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>foodTypeChangeServlet</servlet-name>
+    <url-pattern>/foodType/foodTypeChangeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MFoodChangeServlet</servlet-name>
+    <url-pattern>/food/MFoodChangeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MBoardChangeServlet</servlet-name>
+    <url-pattern>/board/MBoardChangeServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  
+</web-app>
