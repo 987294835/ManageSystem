@@ -12,7 +12,7 @@ public class JdbcUtil {
 	private static String driver = "com.mysql.jdbc.Driver";
 	private static String url = "jdbc:mysql://localhost:3306/order"; 
 	private static String user = "root";    //数据库用户名
-	private static String password = "123456";  //数据库密码
+	private static String password = "";  //数据库密码
 	public static Connection getConnection() throws SQLException,ClassNotFoundException{
 		//加载驱动
 		Class.forName(driver);
